@@ -51,10 +51,11 @@ void main() {
   print("can Watch Movie : $canWatchMovie");
 
   bool isAdmin = true;
-
+  // ignore: unused_local_variable
   bool isModerator = false;
 
-  bool canDeletePost = isAdmin || isModerator; //Output - true
+  // ignore: dead_code
+  final bool canDeletePost = isAdmin || isModerator; // true if either admin or moderator
   print("can Delete Post : $canDeletePost");
 
   //Assignment operators = it is used to assign a value to a variable
@@ -78,6 +79,7 @@ void main() {
 
   bool isLoggedInUser = true;
 
+  // ignore: dead_code
   String message = isLoggedInUser ? "Welcome back!" : "Please log in.";
   print(message); //Output - Welcome back!
 
