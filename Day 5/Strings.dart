@@ -26,8 +26,6 @@ void main() {
   print("The last character of the city name is: ${city[city.length - 1]}");  //Using index to get the last character of the string.
 
   String address = "123, Main Street, Mumbai";
-  print("The first character of the address is: ${address[0]}");  //Using index to get the first character of the string.
-  print("The last character of the address is: ${address[address.length - 1]}");  //Using index to get the last character of the string.
-  
 
+  print("The first character of the address is: ${address[0]}");  //Using index to get the first character of the string.    print("The last character of the address is: ${address[address.length - 1]}");  //Using index to get the last character of the string.
 }
